@@ -2072,4 +2072,15 @@ body.section-open {
         max-width: 100%;
         box-sizing: border-box;
     }
+    .fullscreen-content {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .songs .spotify-placeholder {
+        width: 100%;
+        max-width: 100%;
+    }
 }

@@ -2028,3 +2028,24 @@ body.section-open {
 
 }
 
+@media (max-width: 600px) {
+
+    .fullscreen-content .close-section {
+        z-index: 9999;
+    }
+
+    .photo-gallery {
+        width: 100%;
+        padding: 80px 20px 30px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+}

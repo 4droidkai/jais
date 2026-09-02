@@ -2051,36 +2051,28 @@ body.section-open {
 }
 
 @media (max-width: 600px) {
-    .spotify-placeholder {
-        width: 100%;
+    .songs .spotify-placeholder {
+        width: calc(100% - 40px);
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         box-sizing: border-box;
         overflow: hidden;
     }
 
-    .spotify-placeholder iframe {
+    .songs .spotify-placeholder span {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .songs .spotify-placeholder iframe {
+        display: block;
         width: 100% !important;
         max-width: 100% !important;
         height: 352px;
-        display: block;
         box-sizing: border-box;
-    }
-
-    .spotify-placeholder span {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-    .fullscreen-content {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-
-    .songs .spotify-placeholder {
-        width: 100%;
-        max-width: 100%;
+        border: 0;
     }
 }

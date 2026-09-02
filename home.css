@@ -2049,3 +2049,27 @@ body.section-open {
         box-sizing: border-box;
     }
 }
+
+@media (max-width: 600px) {
+    .spotify-placeholder {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .spotify-placeholder iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 352px;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .spotify-placeholder span {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
